@@ -138,7 +138,7 @@ body {
     position: absolute;
     top: 0;
     left: 50%;
-    animation: swing 10000ms linear infinite;
+    animation: swing 10000ms both infinite;
     transition: opacity 100ms 100ms ease-in;
     opacity: 0;
 }
@@ -147,29 +147,21 @@ body {
     0% {
       transform: translate(-50%) rotate(0);
     }
-    10% {
-      transform: translate(-50%) rotate(2.5deg);
-    }
+
     20% {
       transform: translate(-50%) rotate(-2.5deg);
     }
-    30% {
-      transform: translate(-50%) rotate(2.5deg);
-    }
+
     40% {
-      transform: translate(-50%) rotate(-2.5deg);
-    }
-    50% {
       transform: translate(-50%) rotate(2.5deg);
     }
+
     60% {
       transform: translate(-50%) rotate(-2.5deg);
     }
-    70% {
-      transform: translate(-50%) rotate(2.5deg);
-    }
+
     80% {
-      transform: translate(-50%) rotate(-2.5deg);
+      transform: translate(-50%) rotate(2.5deg);
     }
     100% {
       transform: translate(-50%) rotate(0);
