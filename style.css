@@ -130,7 +130,7 @@ body {
 
 .swing img {
     width: 400px;
-    opacity: .45;
+    opacity: .25;
     filter: grayscale(100%) drop-shadow(0px 0px 7.5px whitesmoke);
 }
 
