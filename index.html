@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="" property="og:title" />
+  <meta content property="og:description" />
+  <meta content="https://cdn.discordapp.com/attachments/1025692598398103564/1087746191267217438/favicon.jpg" property="og:image" />
+  <link rel="icon" href="/main/favicon.jpg" type="image/x-icon">
+  <link rel="shortcut icon" href="/main/favicon.jpg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Dosis:wght@200&family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="/main/sparkles.js"></script>
+  <script src="/main/storm.js"></script>
+  <script src="/main/bats.js"></script>
+  <title>⠀</title>
+</head>
+<body>
+
+    <!--
+    
+    
+    
+    
+    
+    
+  ty xeno/lextra for ideas, xeno#0666 <3
+  
+  
+  
+  
+  
+  -->
+
+  <div class="detect">.</div>
+
+  <div class="container-discord"><img class="dsc_c99" src="https://discord.c99.nl/widget/theme-4/834983621915049985.png"></div>
+
+  <div class="click">tap</div>
+
+  <div class="tip">rin#020</div>
+
+  <div class="swing"><img src="/main/swing.png"></div>
+
+
+  <div class="container">
+    <img class="logo" src="/main/riot.png">
+  </div>
+
+
+
+
+
+  <script>
+
+     document.addEventListener('contextmenu', event => {
+       event.preventDefault();
+     });
+
+     document.addEventListener('keydown', event => {
+     if (event.key === 'F12' || event.keyCode === 123) {
+      event.preventDefault();
+       }
+     });
+
+
+    var detectElem = document.querySelector(".detect")
+    var clickElem = document.querySelector(".click")
+    var rinElem = document.querySelector(".container-discord")
+    var containElem = document.querySelector(".container")
+    var logoElem = document.querySelector(".logo")
+    var tip = document.querySelector(".tip")
+    var swingElem = document.querySelector(".swing")
+  
+    detectElem.addEventListener("click", function() {
+      toggleBats()
+      detectElem.style.display = "none"
+      clickElem.style.transition = "opacity 100ms ease-in 100ms";
+      clickElem.style.opacity = 0;
+      clickElem.style.display = "none";
+      rinElem.style.transition = "opacity 100ms ease-in 100ms";
+      rinElem.style.opacity = ".75";
+      containElem.style.opacity = ".5"
+      logoElem.style.transition = "opacity 100ms ease-in 100ms";
+      logoElem.style.opacity = ".5"
+      swingElem.style.opacity = "1"
+
+
+
+    containElem.addEventListener('mouseover', function() {
+      tip.style.opacity = 0.25;
+      containElem.style.opacity = 0;
+    });
+
+    containElem.addEventListener('mouseout', function() {
+      tip.style.opacity = 0;
+      containElem.style.opacity = .5;
+    });
+          
+      
+      toggleSnow()
+
+      var audio = new Audio("/main/wmusic.m4a");
+      audio.loop = true;
+      audio.volume = .25;
+      audio.play();
+    });
+  </script>
+
+</body>
+</html>
