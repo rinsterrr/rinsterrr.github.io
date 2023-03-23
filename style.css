@@ -131,14 +131,14 @@ body {
 .swing img {
     width: 400px;
     opacity: .5;
-    filter: grayscale(100%) drop-shadow(0px 0px 10px whitesmoke);
+    filter: grayscale(100%) saturate(300%) drop-shadow(0px 0px 7.5px whitesmoke);
 }
 
 .swing {
     position: absolute;
     top: 0;
     left: 50%;
-    animation: swing 10000ms both infinite;
+    animation: swing 8000ms both infinite;
     transition: opacity 100ms 100ms ease-in;
     opacity: 0;
 }
